@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Parking</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title_activity_maps">Parking Availability</string>
+
+
+    <!-- Strings related to filtering -->
+    <string name="filter">Filter</string>
+
+    <string name="spot_type">Parking Spot Type</string>
+    <string name="lot_type">Parking Lot Type</string>
+    <string name="cost">Parking Spot Cost Per Hour</string>
+    <string name="dest">Distance to Destination</string>
+
+    <string-array name="spotFilter">
+        <item>All</item>
+        <item>Electric Vehicle</item>
+        <item>Accessible Parking</item>
+    </string-array>
+    <string-array name="costFilter">
+        <item>All</item>
+        <item>Free</item>
+        <item>$2 or less</item>
+        <item>$5 or less</item>
+        <item>$10 or less</item>
+    </string-array>
+    <string-array name="lotFilter">
+        <item>All</item>
+        <item>Streetside</item>
+        <item>Surface Lot</item>
+        <item>Gated</item>
+        <item>Underground</item>
+    </string-array>
+    <string-array name="destFilter">
+        <item>All</item>
+        <item>0.5 miles or less</item>
+        <item>1 mile or less</item>
+        <item>2 miles or less</item>
+        <item>5 miles or less</item>
+    </string-array>
+</resources>
